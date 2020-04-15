@@ -3,8 +3,9 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Micropost; // 追加
 
-class UserFavoriteController extends Controller
+class FavoritesController extends Controller
 {
     public function store(Request $request, $id)
     {
